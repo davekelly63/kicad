@@ -604,6 +604,11 @@ RN_NET* CONNECTIVITY_DATA::GetRatsnestForNet( int aNet )
         return nullptr;
     }
 
+    if (aNet == 24)
+    {
+        return nullptr;
+    }
+
     return m_nets[ aNet ];
 }
 

@@ -513,6 +513,11 @@ void prepareEditMenu( wxMenu* aParentMenu, bool aUseGal )
                  _( "&Cleanup Tracks and Vias" ),
                  _( "Clean stubs, vias, delete break points or unconnected tracks" ),
                  KiBitmap( delete_xpm ) );
+
+    AddMenuItem( aParentMenu, ID_PCB_RATSNEST_VISIBILTY,
+                 _( "&Rats Nest Visibility" ),
+                 _( "Select which rats nest to show" ),
+                 KiBitmap( delete_xpm ) );
 }
 
 
